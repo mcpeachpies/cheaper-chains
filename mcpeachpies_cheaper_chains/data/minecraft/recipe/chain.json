@@ -1,21 +1,21 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-      "#",
-      "i",
-      "#"
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "#",
+    "i",
+    "#"
+  ],
+  "key": {
+    "#": [
+      "minecraft:iron_nugget"
     ],
-    "key": {
-      "#": {
-        "item": "minecraft:iron_nugget"
-      },
-      "i": {
-        "item": "minecraft:iron_ingot"
-      }
-    },
-    "result": {
-      "id": "minecraft:chain",
-      "count": 8
-    }
+    "i": [
+      "minecraft:iron_ingot"
+    ]
+  },
+  "result": {
+    "id": "minecraft:chain",
+    "count": 8
   }
-  
+}
